@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+
+  <!-- Test run parameters for configuring the test environment -->
+  <TestRunParameters>
+    <!-- Base URL for the test run -->
+    <Parameter name="baseURL" value="http://localhost/CourseManagementSystem" />
+
+    <!-- Browser to be used for the test run -->
+    <Parameter name="browser" value="chrome"/>
+
+    <!-- Database connection string for the test run -->
+    <Parameter name="connectionString" value="Integrated Security=True;Initial Catalog=CourseManagementSystem.Models.SchoolContext;Data Source=yourDB" />
+
+    <!-- Directory for storing screenshots during the test run -->
+    <Parameter name="ScreenShotDirectory" value="location to store your screen shot" />
+  </TestRunParameters>
+
+</RunSettings>
